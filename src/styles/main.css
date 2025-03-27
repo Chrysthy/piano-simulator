@@ -21,3 +21,7 @@ header h2 {
     font-size: 1.6rem;
 }
 
+header .column {
+    display: flex;
+    align-items: center;
+}
