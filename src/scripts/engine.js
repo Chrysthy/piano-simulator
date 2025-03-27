@@ -4,6 +4,7 @@ let audio = new Audio("src/tunes/a.wav");
 
 const playTune = (key) => {
 
+    audio.src = `src/tunes/${key}.wav`
     audio.play();
 
 }
