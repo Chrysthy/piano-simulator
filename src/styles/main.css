@@ -110,3 +110,14 @@ header .column span {
     background: linear-gradient(#fff 96%, #eee 4%);
     border-radius: 8px;   
 }
+
+.piano-keys .black {
+    width: 44px;
+    height: 140px;
+
+    z-index: 2;
+    margin: 0 22px 0 -22px;
+
+    background: linear-gradient(#333, #000);
+    border-radius: 0 0 5px 5px;   
+}
