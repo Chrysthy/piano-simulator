@@ -12,12 +12,19 @@ body {
 .container {
     width: 780px;
 
-    border: 1px solid #000;
     border-radius: 20px;
 
     padding: 100px 80px;
 
     background-color: #000;
+}
+
+.container header {
+    color: #b2b2b2;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 header h2 {
