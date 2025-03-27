@@ -69,3 +69,8 @@ header .column span {
     transition: all 0.3s ease;
 }
 
+.keys-check input:checked:before {
+    left: 2.1rem;
+
+    background-color: #8c8c8c;
+}
