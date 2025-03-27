@@ -102,3 +102,11 @@ header .column span {
     color: #a2a2a2;
     position: relative;
 }
+
+.piano-keys .white {
+    width: 70px;
+    height: 230px;
+
+    background: linear-gradient(#fff 96%, #eee 4%);
+    border-radius: 8px;   
+}
