@@ -43,7 +43,8 @@ document.addEventListener("keydown", (e) => {
 
 
 const handleVolume = (e) => {
-    console.log(e.target.value);
+
+    audio.volume = e.target.value;
 
 }
 
