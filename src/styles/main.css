@@ -5,7 +5,7 @@ body {
 
     min-height: 100vh;
 
-    background-color: #e3f2fd;
+    background-color: #dda0dd;
     color: #fff;
 }
 
@@ -29,6 +29,7 @@ body {
 
 header h2 {
     font-size: 1.6rem;
+    color: #dda0dd;
 }
 
 header .column {
