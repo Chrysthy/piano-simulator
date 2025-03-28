@@ -10,8 +10,6 @@ const playTune = (key) => {
     audio.src = `src/tunes/${key}.wav`
     audio.play();
 
-    console.log(mapedKeys);
-
     const clickedKey = document.querySelector(`[data-key="${key}"]`);
 
     clickedKey.classList.add("active");
@@ -25,7 +23,6 @@ const playTune = (key) => {
 
 
 pianoKeys.forEach((key) => {
-    //console.log(key.dataset.key);
 
     key.addEventListener('click', () => playTune(key.dataset.key));
 
@@ -38,7 +35,6 @@ document.addEventListener("keydown", (e) => {
     if (mapedKeys.includes(e.key)) {
 
         playTune(e.key);
-        //console.log(e.key)
 
     }
 
