@@ -25,7 +25,7 @@
 
 ## 📸 Screenshots
 
-<img src="src/images/persona-5-project.gif" alt="">
+<img src=".github/imagem-do-projeto.PNG" alt="Imagem do Projeto">
 
 <br>
 
